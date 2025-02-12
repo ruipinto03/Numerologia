@@ -25,5 +25,36 @@ A aplicação terá dois níveis de acesso: **Gratuito (Free)** e **Premium**, o
 - O sistema pode oferecer um período de teste grátis para novos utilizadores.  
 
 ---
+# 💳 Preços - Aplicação de Numerologia
 
-Esta estrutura ajuda a diferenciar o que será **gratuito** e o que pode ser **pago**, tornando a monetização mais clara. Alguma funcionalidade extra que queiras adicionar à versão premium? 🚀
+A aplicação terá dois planos de acesso: **Gratuito (Free)** e **Premium**. O plano **Premium** oferece funcionalidades avançadas, enquanto o **Free** permite o acesso a funcionalidades básicas.
+
+## 📌 Plano Gratuito (Free)
+- **Cálculos básicos de numerologia** (número do destino, entre outros).  
+- **Relatórios simples** com interpretações básicas.  
+- **Histórico limitado de análises**.
+
+**Preço**: **Gratuito**.
+
+---
+
+## 📌 Plano Premium
+O plano Premium oferece acesso a todas as funcionalidades exclusivas, como relatórios detalhados, compatibilidade numerológica, previsões e exportação de dados.
+
+### Preços:
+- **Assinatura Mensal**: €4,99 a €7,99 por mês.  
+- **Assinatura Anual**: €49,99 a €79,99 por ano (com 20-30% de desconto em relação à mensalidade).  
+
+---
+
+## 🏅 Funcionalidades do Plano Premium
+- **Relatórios detalhados** com interpretações avançadas.  
+- **Compatibilidade numerológica** entre várias pessoas.  
+- **Exportação de relatórios** em PDF, CSV.  
+- **Histórico completo de análises guardadas**.  
+- **Previsões numerológicas** para ciclos de vida e tendências futuras.
+
+---
+
+### ⚡️ Período de Teste
+- **Teste Premium por 7 dias** para novos utilizadores, permitindo que experimentem todas as funcionalidades antes de decidir pelo plano pago.
