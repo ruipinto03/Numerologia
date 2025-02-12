@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 Estrutura da Sidebar - Aplicação de Numerologia
 
-## Getting Started
+Esta é a estrutura proposta para a sidebar da aplicação de numerologia, organizada de forma intuitiva para facilitar a navegação dos utilizadores.
 
-First, run the development server:
+## 🌟 Menus Principais
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Dashboard** - Resumo geral e atalhos principais.  
+2. **Calculadora de Numerologia** - Acesso direto aos cálculos principais.  
+3. **Relatórios** - Resultados detalhados e interpretações numéricas.  
+4. **Perfis Guardados** - Histórico de análises já feitas.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔢 Cálculos (Dropdown)
+- Número do Destino  
+- Número da Alma  
+- Número da Personalidade  
+- Número da Expressão  
+- Número do Ano Pessoal  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📜 Relatórios Detalhados (Dropdown)
+- Relatório Completo  
+- Compatibilidade Numerológica  
+- Ciclos de Vida  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📖 Conteúdos e Aprendizado (Dropdown)
+- Significado dos Números  
+- Métodos de Cálculo  
+- História da Numerologia  
 
-## Learn More
+## 💬 Ajuda e Suporte
+- FAQ  
+- Contato  
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ Configurações
+- Ajustes de conta  
+- Idioma  
+- Preferências de exibição  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔐 Administração *(Se aplicável)*
+- Gerir Utilizadores  
+- Estatísticas de Uso  
