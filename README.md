@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 Estrutura da Sidebar - Aplicação de Numerologia
 
-## Getting Started
+Esta é a estrutura proposta para a sidebar da aplicação de numerologia, organizada de forma intuitiva para facilitar a navegação dos utilizadores.
 
-First, run the development server:
+## 🌟 Menus Principais
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Dashboard** - Resumo geral e atalhos principais.  
+2. **Calculadora de Numerologia** - Acesso direto aos cálculos principais.  
+3. **Relatórios** - Resultados detalhados e interpretações numéricas.  
+4. **Perfis Guardados** - Histórico de análises já feitas.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔢 Cálculos (Dropdown)
+- Número do Destino  
+- Número da Alma  
+- Número da Personalidade  
+- Número da Expressão  
+- Número do Ano Pessoal  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📜 Relatórios Detalhados (Dropdown)
+- Relatório Completo  
+- Compatibilidade Numerológica  
+- Ciclos de Vida  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📖 Conteúdos e Aprendizado (Dropdown)
+- Significado dos Números  
+- Métodos de Cálculo  
+- História da Numerologia  
 
-## Learn More
+## 💬 Ajuda e Suporte
+- FAQ  
+- Contato  
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ Configurações
+- Ajustes de conta  
+- Idioma  
+- Preferências de exibição  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔐 Administração *(Se aplicável)*
+- Gerir Utilizadores  
+- Estatísticas de Uso  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 🔐 Sidebar de Administração - Aplicação de Numerologia
 
-## Deploy on Vercel
+Esta sidebar será separada da principal e estará acessível apenas para administradores.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Estrutura da Sidebar de Administração  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1️⃣ **Dashboard Administrativo**  
+   - Visão geral da aplicação  
+   - Estatísticas de utilização  
+   - Número de utilizadores e análises feitas  
+
+2️⃣ **Gestão de Utilizadores**  
+   - Listar utilizadores (ID, nome, email, data de registo)  
+   - Ativar/desativar contas  
+   - Editar permissões (admin, utilizador normal)  
+   - Remover contas  
+
+3️⃣ **Gestão de Análises Guardadas**  
+   - Consultar análises feitas pelos utilizadores  
+   - Eliminar análises obsoletas ou duplicadas  
+
+4️⃣ **Configurações Globais**  
+   - Definir permissões para funcionalidades premium ou gratuitas  
+   - Personalizar mensagens e textos da aplicação  
+   - Configurar backups e exportação de dados  
+
+5️⃣ **Relatórios e Estatísticas**  
+   - Quantidade de cálculos feitos por período  
+   - Uso das funcionalidades da aplicação  
+   - Exportação de relatórios (CSV, PDF)  
+
+6️⃣ **Logs e Segurança**  
+   - Histórico de login e atividades suspeitas  
+   - Registo de erros e falhas  
+   - Opção para forçar logout de todos os utilizadores  
+
+---
+
+### ⚡️ **Implementação**
+- Apenas administradores terão acesso a esta sidebar.  
+- O utilizador poderá alternar entre a experiência normal e a experiência administrativa.  
+- O modo admin pode ser ativado por um botão ou ao entrar numa rota específica (ex: `/admin`).  
+
+# ⚙️ Configurações Globais - Aplicação de Numerologia
+
+Esta secção contém as opções disponíveis para os administradores configurarem a aplicação.
+
+## 📌 Estrutura das Configurações  
+
+### 1️⃣ Configurações de Permissões  
+- Definir acesso a funcionalidades premium/gratuitas.  
+- Ativar/desativar funcionalidades experimentais.  
+- Gerir permissões de administradores e utilizadores.  
+
+### 2️⃣ Personalização da Aplicação  
+- Personalizar mensagens e textos do site.  
+- Escolher o idioma padrão da aplicação.  
+- Configurar temas e aparência (modo claro/escuro).  
+
+### 3️⃣ Configurações de Backup e Exportação  
+- Ativar backups automáticos.  
+- Opção para exportar dados (JSON, CSV, PDF).  
+- Restaurar backups antigos.  
+
+### 4️⃣ Integrações e API *(Se aplicável)*  
+- Configurar acesso a API externa de numerologia.  
+- Gerir chaves de API para integrações.  
+- Definir webhooks para notificações.  
+
+### 5️⃣ Configurações de Segurança  
+- Forçar redefinição de senha para utilizadores.  
+- Configurar tempo de sessão antes do logout automático.  
+- Gerir autenticação de dois fatores (2FA).  
+
+### 6️⃣ Configurações de Notificações  
+- Ativar/desativar notificações por email.  
+- Personalizar alertas dentro da aplicação.  
+
+---
+
+## 🔐 Acesso às Configurações  
+- Apenas administradores podem aceder a esta secção.  
+- Algumas opções podem ser restritas dependendo do plano da aplicação.  
+
